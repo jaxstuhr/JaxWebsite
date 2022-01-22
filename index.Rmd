@@ -1,0 +1,16 @@
+---
+title: "Jaxon Stuhr"
+image: "jax_face.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/jaxon-stuhr-583151133/"
+  - label: GitHub
+    url: "https://github.com/jaxstuhr"
+  - label: Email
+    url: "jstuhr@ucsb.edu"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+ 
+I am  a PhD Student in the Bren School of Environmental Science and Management at UC Santa Barbara, using a combination of physical process modelling, life-cycle assessment, and data science to project decarbonization pathways for the United States. I also enjoy climbing rocks in my spare time.

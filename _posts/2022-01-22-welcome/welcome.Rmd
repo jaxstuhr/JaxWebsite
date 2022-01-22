@@ -1,0 +1,20 @@
+---
+title: "My first blog post"
+description: |
+  I made my own website. Yeehaw! 
+author:
+  - name: Jaxon
+date: 2022-01-22
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hopefully there will be more grad school content than climbing content, but I guess we'll just have to wait and see...
+
+
