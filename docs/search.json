@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About Me",
+      "description": "A few paragraphs about my work, experience, goals, and passions. ",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-22T12:07:51-08:00"
+      "contents": "\r\nI did my undergrad at UC Berkeley where I studied Physics and worked on a variety of research projects, studying neutrinos in Antarctica and bacteria off the California coast. After graduating in 2020, I was hired as an intern in the Energy Systems division at Argonne National Lab and did research focusing on forecasting the potential for biofuels in the international shipping center.\r\nHere at UC Santa Barbara I’ve join Eric Masanet’s Industrial Sustainability Analysis Lab where my work focuses on finding optimal decarbonization pathways for the industrial sector. Currently I am working on a project with the National Renewable Energy Lab that aims to forecast the energy savings potential associated with implemented the best available technologies throughout industry in the US. Moving forward I aim to focus on detailed decarbonization plans that are optimized with respect to environmental, social, and economic impacts.\r\nI have also spent a significant portion of my life teaching in various settings, something I enjoy greatly and get great satisfaction from. I will continue to teach as teaching assistant throughout graduate school with a focus on empowering students by showing them the variety of paths their unique skills will provide them.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-06T21:56:31-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-01-22T12:09:17-08:00"
+      "last_modified": "2022-01-22T12:09:53-08:00"
     },
     {
       "path": "index.html",
