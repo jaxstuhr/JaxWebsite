@@ -1,15 +1,19 @@
 ---
 title: "About Me"
-description: |
-  A few paragraphs about my work, experience, goals, and passions. 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+__Research__
+
+After graduating from UC Berkeley with a degree in Physics in Spring of 2020, I went on to work in the Energy Systems Divsion at Argonne National Lab. My research focused on projecting the potential for a variety of novel biofuel pathways to help decarbonize the marine shipping center. 
+
+Here at UC Santa Barbara I've joined Eric Masanet's Lab where my work focuses on guiding decarbonization pathways for the industrial sector. Currently I am focused on forecasting the energy savings potential associated with implementing the best available technologies throughout industry in the US. Moving forward I aim to focus on detailed decarbonization plans that are optimized with respect to environmental, social, and economic impacts.
+
+
+__Hobbies__
+
+Outside of academics, I love to spend time outdoors, primarily rock climbing all over California. I've spent extensive time climbing in Tahoe, Yosemite, and the Eastern Sierra, and I look forward to spending the next 5 years exploring the *fantastic* sandstone here in the Santa Barbara mountains.
+
+```{r, out.width="0.1\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Yosemite, 2020"), echo=FALSE}
+library(here)
+knitr::include_graphics(here("climbing_pic.jpeg"))
 ```
-
-I did my undergrad at UC Berkeley where I studied Physics and worked on a variety of research projects, studying neutrinos in Antarctica and bacteria off the California coast. After graduating in 2020, I was hired as an intern in the Energy Systems division at Argonne National Lab and did research focusing on forecasting the potential for biofuels in the international shipping center. 
-
-Here at UC Santa Barbara I've join Eric Masanet's Industrial Sustainability Analysis Lab where my work focuses on finding optimal decarbonization pathways for the industrial sector. Currently I am working on a project with the National Renewable Energy Lab that aims to forecast the energy savings potential associated with implemented the best available technologies throughout industry in the US. Moving forward I aim to focus on detailed decarbonization plans that are optimized with respect to environmental, social, and economic impacts.
-
-I have also spent a significant portion of my life teaching in various settings, something I enjoy greatly and get great satisfaction from. I will continue to teach as teaching assistant throughout graduate school with a focus on empowering students by showing them the variety of paths their unique skills will provide them. 

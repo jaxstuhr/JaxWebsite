@@ -87,26 +87,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Jaxon Stuhr: About Me</title>
+  <title>Jaxon Stuhr: Title</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Jaxon Stuhr: About Me"/>
+  <meta property="og:title" content="Jaxon Stuhr: Title"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Jaxon Stuhr"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Jaxon Stuhr: About Me"/>
+  <meta property="twitter:title" content="Jaxon Stuhr: Title"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["About Me"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Title"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2364,7 +2364,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About Me","authors":[]}
+{"title":"Title","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2389,7 +2389,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About Me</h1>
+<h1>Title</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2397,19 +2397,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p><strong>Research</strong></p>
-<p>After graduating from UC Berkeley with a degree in Physics in Spring of 2020, I went on to work in the Energy Systems Divsion at Argonne National Lab. My research focused on projecting the potential for a variety of novel biofuel pathways to help decarbonize the marine shipping center.</p>
-<p>Here at UC Santa Barbara I’ve joined Eric Masanet’s Lab where my work focuses on guiding decarbonization pathways for the industrial sector. Currently I am focused on forecasting the energy savings potential associated with implementing the best available technologies throughout industry in the US. Moving forward I aim to focus on detailed decarbonization plans that are optimized with respect to environmental, social, and economic impacts.</p>
-<p><strong>Hobbies</strong></p>
-<p>Outside of academics, I love to spend time outdoors, primarily rock climbing all over California. I’ve spent extensive time climbing in Tahoe, Yosemite, and the Eastern Sierra, and I look forward to spending the next 5 years exploring the <em>fantastic</em> sandstone here in the Santa Barbara mountains.</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
-<img src="climbing_pic.jpeg" alt="Yosemite, 2020" width="0.1\linewidth" />
-<p class="caption">
-Figure 1: Yosemite, 2020
-</p>
-</div>
-</div>
+<p><code>{#r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE) library(here)</code></p>
+<p><code>{#r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE} knitr::include_graphics(here("JaxResume.png"))</code></p>
+<p><code>{#r, include = FALSE} xfun::embed_file(here("JaxResume.pdf"))</code></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
