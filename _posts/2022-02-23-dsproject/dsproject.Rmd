@@ -1,13 +1,13 @@
 ---
 title: "Palmetto binary logistic regression"
-
 author:
-  - name: Jaxon
-date: 2022-01-28
-output: 
+  - name: Jaxon Stuhr
+date: 2022-02-23
+output:
   html_document:
     code_folding: hide
 ---
+
 
 ```{r setup, include=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
@@ -178,4 +178,5 @@ The model performed well, classifying both species correctly with over 90% accur
 ## Data Citation
 
 Abrahamson, W.G. 2019. Survival, growth and biomass estimates of two dominant palmetto species of south-central Florida from 1981 - 2017, ongoing at 5-year intervals ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/f2f96ec76fbbd4b9db431c79a770c4d5
+
 

@@ -1,17 +1,10 @@
 ---
-title: "Title"
+title: "Resume"
 
 ---
 
-```{#r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+```{r, include = TRUE}
 library(here)
-```
-
-```{#r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
-knitr::include_graphics(here("JaxResume.png"))
-```
-
-```{#r, include = FALSE}
 xfun::embed_file(here("JaxResume.pdf"))
 ```
