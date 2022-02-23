@@ -1,13 +1,15 @@
 ---
 title: "Palmetto binary logistic regression"
+description: |
+  A data visualization and binary logistic regression assignment
 author:
   - name: Jaxon Stuhr
+    url: {}
 date: 2022-02-23
 output:
-  html_document:
-    code_folding: hide
+  distill::distill_article:
+    self_contained: false
 ---
-
 
 ```{r setup, include=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
